@@ -1,0 +1,6 @@
+package com.yatra.map;
+
+public class UIMap {
+	Properties prop = new Properties();
+	OutputStream output = null;
+}

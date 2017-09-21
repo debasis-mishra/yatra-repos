@@ -1,0 +1,13 @@
+package com.yatra.flightbooking;
+
+
+import org.junit.internal.TextListener;
+import org.junit.runner.JUnitCore;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+
+		
+	}
+}

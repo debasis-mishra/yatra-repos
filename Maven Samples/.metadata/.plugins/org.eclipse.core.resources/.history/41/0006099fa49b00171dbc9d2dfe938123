@@ -1,0 +1,12 @@
+package com.yatra.utils;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserUtils {
+
+	WebDriver driver;
+	public void setup()
+	{
+		
+	}
+}

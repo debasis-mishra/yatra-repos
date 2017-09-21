@@ -1,0 +1,27 @@
+package com.yatra.map;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+public class UIMapReader {
+
+	UIMap map;
+	
+	public UIMapReader() 
+	{
+		try
+		{
+			map = new UIMap();
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("Properties file not found");
+		}
+		catch(IOException e)
+		{
+			System.out.println("Improper data in properties file");
+		}
+	}
+}

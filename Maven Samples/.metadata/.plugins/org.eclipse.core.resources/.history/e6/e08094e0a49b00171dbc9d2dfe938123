@@ -1,0 +1,22 @@
+package com.yatra.utils;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import junit.framework.Assert;
+
+public class BrowserUtils {
+
+	WebDriver driver;
+	public void setup()
+	{
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.yatra.com/");
+	}
+	
+	public void teardown()
+	{
+		assertNotNull(driver);
+	}
+}

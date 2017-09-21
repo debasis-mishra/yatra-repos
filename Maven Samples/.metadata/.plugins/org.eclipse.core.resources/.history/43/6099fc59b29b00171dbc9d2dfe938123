@@ -1,0 +1,24 @@
+package com.yatra.uicontrols;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.yatra.map.UIMap;
+import com.yatra.utils.BrowserUtils;
+
+public class ControlSetter {
+	
+	UIMap map;
+	
+	public void setOrigin(String text)
+	{
+		String locator = map.readProperty("yatra.flightsearch.from");
+		
+		WebElement el = BrowserUtils.driver.findElement(By.id(locator));
+		Assert.assertTrue(el.isDisplayed());
+		Assert.assertTrue(el.isEnabled());
+		
+		el.sendKeys(text);
+	}
+
+}

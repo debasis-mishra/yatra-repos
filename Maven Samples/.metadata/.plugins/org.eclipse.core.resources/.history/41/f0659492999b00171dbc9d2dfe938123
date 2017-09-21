@@ -1,0 +1,9 @@
+package com.yatra.map;
+
+public class ControlReader {
+
+	public ControlReader()
+	{
+		UIMap map = new UIMap();
+	}
+}

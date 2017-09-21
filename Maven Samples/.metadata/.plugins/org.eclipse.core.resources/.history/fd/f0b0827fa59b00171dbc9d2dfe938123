@@ -1,0 +1,31 @@
+package com.yatra.flightbooking;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class YatraTestScripts {
+	WebDriver driver;
+	@Before
+	public void setup()
+	{
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.yatra.com/");
+	}
+	
+	@Test
+	public void test() {
+		
+	}
+
+	@After
+	public void teardown()
+	{
+		driver.quit();
+	}
+}

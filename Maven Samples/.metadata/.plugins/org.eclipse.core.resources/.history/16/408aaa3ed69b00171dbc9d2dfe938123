@@ -1,0 +1,11 @@
+package com.yatra.flightbooking;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+		JUnitCore jCore = new JUnitCore();
+	    jCore.run(Selenium_Email_TestCase);
+
+	}
+
+}

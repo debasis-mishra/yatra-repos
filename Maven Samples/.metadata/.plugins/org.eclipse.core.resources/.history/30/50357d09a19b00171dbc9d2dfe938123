@@ -1,0 +1,13 @@
+package com.yatra.uicontrols;
+
+import com.yatra.map.UIMap;
+
+public class ControlGetter {
+
+	UIMap map;
+	
+	public ControlGetter()
+	{
+		
+	}
+}

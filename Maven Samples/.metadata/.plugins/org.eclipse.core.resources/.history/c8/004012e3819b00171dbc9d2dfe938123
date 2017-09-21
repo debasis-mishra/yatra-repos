@@ -1,0 +1,19 @@
+package com.yatra.flightbooking;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class YatraTestScripts {
+
+	@Before
+	public void setup()
+	{
+		
+	}
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

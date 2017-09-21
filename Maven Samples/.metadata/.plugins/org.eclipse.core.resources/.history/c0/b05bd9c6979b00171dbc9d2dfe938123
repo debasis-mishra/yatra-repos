@@ -1,0 +1,16 @@
+package com.yatra.map;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+public class UIMap {
+	Properties prop = new Properties();
+	InputStream input = null;
+	
+	public UIMap()
+	{
+		input = new FileInputStream("flightsearch.properties");
+		// load a properties file
+		prop.load(input);
+	}
+}

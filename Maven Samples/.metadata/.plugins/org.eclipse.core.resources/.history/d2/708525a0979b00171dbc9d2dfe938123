@@ -1,0 +1,8 @@
+package com.yatra.map;
+
+import java.util.Properties;
+
+public class UIMap {
+	Properties prop = new Properties();
+	InputStream input = null;
+}

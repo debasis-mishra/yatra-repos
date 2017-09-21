@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.yatra.map.ControlReader"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="com.yatra.map.UIMap"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+<fullyQualifiedTypeName name="com.yatra.utils.BrowserUtils"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.yatra.uicontrols.ControlGetter"/>
+<fullyQualifiedTypeName name="com.yatra.uicontrols.ControlSetter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.junit.runner.JUnitCore"/>
+<fullyQualifiedTypeName name="org.junit.internal.TextListener"/>
+<fullyQualifiedTypeName name="org.junit.runner.Result"/>
+<fullyQualifiedTypeName name="org.junit.runner.notification.Failure"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.internal.KeysRelatedAction"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Keyboard"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+</qualifiedTypeNameHistroy>

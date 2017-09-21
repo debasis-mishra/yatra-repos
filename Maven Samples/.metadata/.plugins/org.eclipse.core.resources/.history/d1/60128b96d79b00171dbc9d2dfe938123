@@ -1,0 +1,11 @@
+package com.yatra.flightbooking;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+		YatraTestSuite jCore = new YatraTestSuite();
+	    
+
+	}
+
+}

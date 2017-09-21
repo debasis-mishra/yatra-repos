@@ -1,0 +1,14 @@
+package com.yatra.flightbooking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+		
+	}
+}

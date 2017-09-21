@@ -1,0 +1,25 @@
+package com.yatra.map;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class ControlReader {
+
+	UIMap map;
+	
+	public ControlReader() 
+	{
+		try
+		{
+			map = new UIMap();
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("Properties file not found");
+		}
+		catch(IOException e)
+		{
+			
+		}
+	}
+}

@@ -1,0 +1,15 @@
+package com.yatra.flightbooking;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({ YatraTestScripts.class })
+public class YatraTestSuite {
+	public YatraTestSuite()
+	{
+		System.out.println("Inside yatra test suite");
+	}
+
+}

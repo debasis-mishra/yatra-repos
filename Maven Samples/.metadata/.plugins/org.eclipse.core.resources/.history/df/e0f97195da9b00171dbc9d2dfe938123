@@ -1,0 +1,28 @@
+package com.yatra.flightbooking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+		List testCases = new ArrayList();
+
+		//Add test cases
+		testCases.add(YatraTestScripts.class);
+
+		
+                    runTestCase(testCases[0]);
+	    
+
+	}
+	private static void runTestCase(Class testCase)
+    {
+        Result result = JUnitCore.runClasses(testCase);
+        for (Failure failure : result.getFailures())
+        {
+            System.out.println(failure.toString());
+        }
+    }
+
+}

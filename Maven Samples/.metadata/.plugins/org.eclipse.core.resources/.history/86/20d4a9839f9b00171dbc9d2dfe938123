@@ -1,0 +1,25 @@
+package com.yatra.map;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+import java.util.stream.Collectors;
+
+public class UIMap {
+	Properties prop = new Properties();
+	InputStream input = null;
+	Map<String, String> hmap = new HashMap();
+	
+	public UIMap() throws FileNotFoundException,IOException
+	{
+		input = new FileInputStream("flightsearch_obj_repos.properties");
+		// load a properties file
+		prop.load(input);
+		
+
+	}
+}

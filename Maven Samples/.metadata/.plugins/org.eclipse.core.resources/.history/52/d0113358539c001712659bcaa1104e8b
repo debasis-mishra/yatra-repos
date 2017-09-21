@@ -1,0 +1,18 @@
+package com.yatra.flightbooking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.internal.TextListener;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+
+public class TestYatra {
+
+	public static void main(String[] args) {
+
+		JUnitCore engine = new JUnitCore();
+		engine.addListener(new TextListener(System.out));
+		engine.run(YatraTestSuite.class);
+	}
+}

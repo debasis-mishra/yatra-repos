@@ -1,0 +1,5 @@
+package com.yatra.utils;
+
+public class BrowserUtils {
+
+}
