@@ -5,6 +5,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
+//runner file for test suite
 public class TestYatra {
 
 	public static void main(String[] args) {
@@ -16,5 +17,6 @@ public class TestYatra {
 	      }
 			
 	      System.out.println(result.wasSuccessful());
+		  
 	}
 }
